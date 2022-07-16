@@ -43,6 +43,7 @@
             this.btn_generate.TabIndex = 0;
             this.btn_generate.Text = "Generate PDF";
             this.btn_generate.UseVisualStyleBackColor = false;
+            this.btn_generate.Click += new System.EventHandler(this.btn_generate_Click);
             // 
             // lbl_generate
             // 

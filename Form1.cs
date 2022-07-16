@@ -6,5 +6,10 @@ namespace Resume_PDF
         {
             InitializeComponent();
         }
+
+        private void btn_generate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
