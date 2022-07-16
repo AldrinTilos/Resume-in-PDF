@@ -28,37 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btn_generate = new System.Windows.Forms.Button();
             this.lbl_generate = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_generate
             // 
-            this.btn_generate.Location = new System.Drawing.Point(322, 111);
+            this.btn_generate.BackColor = System.Drawing.Color.LightCoral;
+            this.btn_generate.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_generate.Location = new System.Drawing.Point(63, 103);
             this.btn_generate.Name = "btn_generate";
-            this.btn_generate.Size = new System.Drawing.Size(81, 66);
+            this.btn_generate.Size = new System.Drawing.Size(147, 66);
             this.btn_generate.TabIndex = 0;
-            this.btn_generate.Text = "button1";
-            this.btn_generate.UseVisualStyleBackColor = true;
+            this.btn_generate.Text = "Generate PDF";
+            this.btn_generate.UseVisualStyleBackColor = false;
             // 
             // lbl_generate
             // 
             this.lbl_generate.AutoSize = true;
-            this.lbl_generate.Location = new System.Drawing.Point(303, 62);
+            this.lbl_generate.BackColor = System.Drawing.Color.LightCoral;
+            this.lbl_generate.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_generate.Location = new System.Drawing.Point(11, 45);
             this.lbl_generate.Name = "lbl_generate";
-            this.lbl_generate.Size = new System.Drawing.Size(38, 15);
+            this.lbl_generate.Size = new System.Drawing.Size(249, 25);
             this.lbl_generate.TabIndex = 1;
-            this.lbl_generate.Text = "label1";
+            this.lbl_generate.Text = "Generate Resume into PDF";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(272, 268);
             this.Controls.Add(this.lbl_generate);
             this.Controls.Add(this.btn_generate);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Generate PDF Resume";
             this.ResumeLayout(false);
             this.PerformLayout();
 
