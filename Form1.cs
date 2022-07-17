@@ -14,9 +14,9 @@ namespace Resume_PDF
         {
             InitializeComponent();
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            string filename = @"F:\PDF Resume\Resume.json";
-            string jsonstring = File.ReadAllText(filename);
-            Resume resume = JsonSerializer.Deserialize<Resume>(jsonstring)!;
+            string FileName = @"F:\PDF Resume\Resume.json";
+            string jsonfile = File.ReadAllText(FileName);
+            Resume resume = JsonSerializer.Deserialize<Resume>(jsonfile)!;
         }
 
         public class Resume
@@ -59,7 +59,55 @@ namespace Resume_PDF
         }
         private void btn_generate_Click(object sender, EventArgs e)
         {
-        
-    }
+            string FileName = @"F:\PDF Resume\Resume.json";
+            string jsonfile = File.ReadAllText(FileName);
+            Resume jsonresume = JsonSerializer.Deserialize<Resume>(jsonfile)!;
+
+            string FullName = jsonresume.FullName;
+            string Job = jsonresume.Job;
+            string Experience = jsonresume.Experience;
+
+            string EducCol = jsonresume.EducCol;
+            string EducYr1 = jsonresume.EducYr1;
+            string EducSHS = jsonresume.EducSHS;
+            string EducYr2 = jsonresume.EducYr2;
+            string EducJRH = jsonresume.EducJRH;
+            string EducYr3 = jsonresume.EducYr3;
+            string EducElem = jsonresume.EducElem;
+            string EducYr4 = jsonresume.EducYr4;
+
+            string SpecAward1 = jsonresume.SpecAward1;
+            string SpecAward2 = jsonresume.SpecAward2;
+            string SpecAward3 = jsonresume.SpecAward3;
+            string SpecAward4 = jsonresume.SpecAward4;
+
+            string RefName = jsonresume.RefName;
+            string RefJob = jsonresume.RefJob;
+            string RefNo = jsonresume.RefNo;
+
+            string SoftwareSkills = jsonresume.SoftwareSkills;
+            string SSkills1 = jsonresume.SSkills1;
+            string SSkills2 = jsonresume.SSkills2;
+            string SSkills3 = jsonresume.SSkills3;
+            string HardwareSkills = jsonresume.HardwareSkills;
+            string HSkills1 = jsonresume.HSkills1;
+            string HSkills2 = jsonresume.HSkills2;
+            string LiteracySkills = jsonresume.LiteracySkills;
+            string LSkills1 = jsonresume.LSkills1;
+            string LSkills2 = jsonresume.LSkills2;
+            string LSkills3 = jsonresume.LSkills3;
+            string LSkills4 = jsonresume.LSkills4;
+            string LSkills5 = jsonresume.LSkills5;
+
+            string InfoEmail = jsonresume.InfoEmail;
+            string InfoWebsite = jsonresume.InfoWebsite;
+            string InfoLI = jsonresume.InfoLI;
+            string InfoNo = jsonresume.InfoNo;
+
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+
+            }
+        }
     }
 }
