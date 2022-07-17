@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tilos\\source\\repos\\Resume PDF\\Resume PDF.csproj": {}
+    "F:\\PDF Resume\\Resume PDF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tilos\\source\\repos\\Resume PDF\\Resume PDF.csproj": {
+    "F:\\PDF Resume\\Resume PDF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tilos\\source\\repos\\Resume PDF\\Resume PDF.csproj",
+        "projectUniqueName": "F:\\PDF Resume\\Resume PDF.csproj",
         "projectName": "Resume PDF",
-        "projectPath": "C:\\Users\\tilos\\source\\repos\\Resume PDF\\Resume PDF.csproj",
+        "projectPath": "F:\\PDF Resume\\Resume PDF.csproj",
         "packagesPath": "C:\\Users\\tilos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tilos\\source\\repos\\Resume PDF\\obj\\",
+        "outputPath": "F:\\PDF Resume\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
             "PdfSharp": {
               "target": "Package",
               "version": "[1.50.5147, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

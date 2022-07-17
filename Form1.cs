@@ -1,12 +1,9 @@
-using Newtonsoft.Json;
-using PdfSharp.Drawing;
+using System.Text.Json;
+using PdfSharp;
 using PdfSharp.Pdf;
-using System;
+using PdfSharp.Drawing;
+using System.Diagnostics;
 using System.Text;
-using System.IO;
-using System.Windows.Forms;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Linq;
 
 namespace Resume_PDF
 {
@@ -16,6 +13,10 @@ namespace Resume_PDF
         public Form1()
         {
             InitializeComponent();
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            string filename = @"F:\PDF Resume\Resume.json";
+            string jsonstring = File.ReadAllText(filename);
+            Resume resume = JsonSerializer.Deserialize<Resume>(jsonstring)!;
         }
 
         public class Resume
