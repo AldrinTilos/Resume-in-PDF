@@ -106,7 +106,28 @@ namespace Resume_PDF
 
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
+                saveFileDialog.InitialDirectory = @"F:\PDF Resume\PDF\Resume";
+                saveFileDialog.FileName = FullName + ".pdf";
+                saveFileDialog.Filter = "PDF|*.pdf";
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    PdfDocument pdf = new PdfDocument();
+                    pdf.Info.Title = FullName + "_" + "Resume";
+                    PdfPage page = pdf.AddPage();
 
+
+                    XGraphics graph = XGraphics.FromPdfPage(page);
+
+                    XFont namefont = new XFont("Franklin Gothic Demi", 30, XFontStyle.Bold);
+                    XFont titlefont = new XFont("Franklin Gothic Demi", 16, XFontStyle.Bold);
+                    XFont infofont = new XFont("Rockwell", 12, XFontStyle.Regular);
+
+                    XPen shadename = new XPen(XColors.SandyBrown, 50);
+                    XPen lineR = new XPen(XColors.Brown, 2);
+                    XPen lineL = new XPen(XColors.Brown, 2);
+
+
+                }
             }
         }
     }
