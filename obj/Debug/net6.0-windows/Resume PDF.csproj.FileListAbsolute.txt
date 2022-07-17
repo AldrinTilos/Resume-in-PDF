@@ -1,0 +1,24 @@
+F:\PDF Resume\bin\Debug\net6.0-windows\Resume PDF.exe
+F:\PDF Resume\bin\Debug\net6.0-windows\Resume PDF.deps.json
+F:\PDF Resume\bin\Debug\net6.0-windows\Resume PDF.runtimeconfig.json
+F:\PDF Resume\bin\Debug\net6.0-windows\Resume PDF.dll
+F:\PDF Resume\bin\Debug\net6.0-windows\Resume PDF.pdb
+F:\PDF Resume\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+F:\PDF Resume\bin\Debug\net6.0-windows\PdfSharp.Charting.dll
+F:\PDF Resume\bin\Debug\net6.0-windows\PdfSharp.dll
+F:\PDF Resume\bin\Debug\net6.0-windows\de\PdfSharp.Charting.resources.dll
+F:\PDF Resume\bin\Debug\net6.0-windows\de\PdfSharp.resources.dll
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.csproj.AssemblyReference.cache
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume_PDF.Form1.resources
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume_PDF.Properties.Resources.resources
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.csproj.GenerateResource.cache
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.GeneratedMSBuildEditorConfig.editorconfig
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.AssemblyInfoInputs.cache
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.AssemblyInfo.cs
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.csproj.CoreCompileInputs.cache
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.csproj.CopyComplete
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.dll
+F:\PDF Resume\obj\Debug\net6.0-windows\refint\Resume PDF.dll
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.pdb
+F:\PDF Resume\obj\Debug\net6.0-windows\Resume PDF.genruntimeconfig.cache
+F:\PDF Resume\obj\Debug\net6.0-windows\ref\Resume PDF.dll
